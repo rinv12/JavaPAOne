@@ -1,8 +1,8 @@
-public abstract class Users {
+public abstract class User {
     private String email;
     private String password;
     private String displayName;
-    public Users(String email, String password, String displayName) {
+    public User(String email, String password, String displayName) {
         this.email = email;
         this.password = password;
         this.displayName = displayName;

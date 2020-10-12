@@ -1,10 +1,11 @@
 import java.time.LocalDate;
 
-public class Electronics extends Products{
+public class Electronic extends Product {
     private String serialNum;
     private LocalDate warrantyPer;
 
-    public Electronics(String productID, String productName, String brandName, String productDesc, LocalDate dateOfIncorp, String serialNum, LocalDate warrantyPer) {
+    public Electronic(String productID, String productName, String brandName, String productDesc,
+                      LocalDate dateOfIncorp, String serialNum, LocalDate warrantyPer) {
         super(productID, productName, brandName, productDesc, dateOfIncorp);
         this.serialNum = serialNum;
         this.warrantyPer = warrantyPer;

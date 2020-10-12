@@ -1,13 +1,13 @@
 import java.time.LocalDate;
 
-public abstract class Products {
+public abstract class Product {
     private String productID;
     private String productName;
     private String brandName;
     private String productDesc;
     private LocalDate dateOfIncorp;
 
-    public Products(String productID, String productName, String brandName, String productDesc, LocalDate dateOfIncorp) {
+    public Product(String productID, String productName, String brandName, String productDesc, LocalDate dateOfIncorp) {
         this.productID = productID;
         this.productName = productName;
         this.brandName = brandName;

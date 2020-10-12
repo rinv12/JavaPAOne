@@ -1,10 +1,10 @@
 import java.time.LocalDate;
-import java.util.*;
 
-public class HomeProducts extends Products{
+public class HomeProducts extends Product {
     private String intendedLoc;
 
-    public HomeProducts(String productID, String productName, String brandName, String productDesc, LocalDate dateOfIncorp, String intendedLoc) {
+    public HomeProducts(String productID, String productName, String brandName, String productDesc,
+                        LocalDate dateOfIncorp, String intendedLoc) {
         super(productID, productName, brandName, productDesc, dateOfIncorp);
         this.intendedLoc = intendedLoc;
     }
