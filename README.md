@@ -3,6 +3,6 @@
 ### ----------- Team Members -----------
 
     florealb    -   Alberto Flores
+    Xiao-Lii    -   Lee Phonthongsy
     rinv12      -   Rin(Loureen) Viloria 
     rrk01       -   Rizzul(Ryan Karki)
-    Xiao-Lii    -   Lee Phonthongsy
