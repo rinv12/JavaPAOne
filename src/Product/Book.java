@@ -1,4 +1,7 @@
+package Product;
+
 import java.time.LocalDate;
+import java.util.ArrayList;
 
 public class Book extends Product {
     private String authorName;
@@ -6,8 +9,9 @@ public class Book extends Product {
     private int edition;
 
     public Book(String productID, String productName, String brandName, String productDesc,
-                LocalDate dateOfIncorp, String authorName, LocalDate publicationData, int edition) {
-        super(productID, productName, brandName, productDesc, dateOfIncorp);
+                LocalDate dateOfIncorp, ArrayList<Category> prodCategory, String authorName,
+                LocalDate publicationData, int edition) {
+        super(productID, productName, brandName, productDesc, dateOfIncorp, prodCategory);
         this.authorName = authorName;
         this.publicationData = publicationData;
         this.edition = edition;
