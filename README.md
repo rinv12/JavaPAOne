@@ -1,6 +1,6 @@
-# JavaPAOne - CSCI 3920 Programming Assignment for PA#1
+## JavaPAOne - CSCI 3920 Programming Assignment for PA#1
 
-## ----------- Team Members -----------
+### ----------- Team Members -----------
 
     florealb    -   Alberto Flores
     rinv12      -   Rin(Loureen) Viloria 
